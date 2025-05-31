@@ -1,0 +1,49 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    header{
+        height: 6rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 4.1rem;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        height: 0rem;
+
+        transition: all 0.3s ease;
+    }
+
+    .nav-links li {
+        margin: 0.2rem 0;
+        font-size: 1.5rem;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-map {
+        height: 300px;
+    }
+}
